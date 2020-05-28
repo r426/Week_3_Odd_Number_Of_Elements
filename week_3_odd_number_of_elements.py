@@ -20,3 +20,9 @@ while found < 0:
     else:
         i = j
 print(f'There is an odd number of {found}s.')
+
+#Yet it was as simple as that:
+
+xored = 0
+for x in myList: xored ^= x
+print(f'There is an odd number of {xored}s.')
